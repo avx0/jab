@@ -1,0 +1,12 @@
+*~
+test.a
+test.a/*
+test.a/.*
+pass
+pass/*
+pass/.*
+log.org
+__pycache__
+test1.sh
+test2_1.sh
+test2_2.sh
