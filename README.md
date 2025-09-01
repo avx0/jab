@@ -10,6 +10,19 @@ jab is a console XMPP client.
 - SOCKS proxies are supported.
 - Users can proxy their connection through TOR.
 
+## Usage
+
+```sh
+proxychains4 -q                 \
+	./jab.py                    \
+	    --from bob@xmpp.tld     \
+	    --to alice@xmpp.tld     \
+	    --pass pass/pass_bob    \
+	    --my-keyid bob          \
+	    --recp-keyid alice
+```
+
+
 ## jab-v1
 - [ ] TODO rewrite in C
 - [ ] TODO implement OTR
